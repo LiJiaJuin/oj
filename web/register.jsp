@@ -20,7 +20,7 @@
         function checkRegisterInfo() {
             var userName = $("#inputUserName").val();
             var email = $("#inputEmail").val();
-            var password = $("#inputPassword").val();
+            var password = $("#inputPasswords").val();
             var confirmPassword = $("#inputConfirmPassword").val();
 
 
@@ -131,9 +131,9 @@
             </div>
 
             <div class="form-group row">
-                <label for="inputPassword" class="col-sm-4 col-form-label text-right">密码 :</label>
+                <label for="inputPasswords" class="col-sm-4 col-form-label text-right">密码 :</label>
                 <div class="col-sm-5">
-                    <input type="password" class="form-control" id="inputPassword" name="inputPassword"
+                    <input type="password" class="form-control" id="inputPasswords" name="inputPassword"
                            placeholder="密码">
                 </div>
                 <label class="col-form-label" id="passwordTip" style="display: none; color: red">密码label</label>
