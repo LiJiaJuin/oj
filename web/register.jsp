@@ -58,7 +58,7 @@
             if (password != confirmPassword) {
                 confirmPasswordTip.html("两次输入的密码不匹配");
                 confirmPasswordTip.show();
-                isOk++;//????？
+                isOk++;//????？》《
             } else {
                 confirmPasswordTip.hide();
             }
