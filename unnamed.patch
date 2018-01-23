@@ -1,0 +1,16 @@
+Index: web/register.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/register.jsp	(revision d3dd1858ab01b6e73aa804ebddb42697dca517ea)
++++ web/register.jsp	(date 1516509011872)
+@@ -58,7 +58,7 @@
+             if (password != confirmPassword) {
+                 confirmPasswordTip.html("两次输入的密码不匹配");
+                 confirmPasswordTip.show();
+-                isOk++;
++                isOk++;//??
+             } else {
+                 confirmPasswordTip.hide();
+             }
